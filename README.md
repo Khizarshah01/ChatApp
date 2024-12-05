@@ -6,7 +6,7 @@
  ChatWeb is a real-time messaging application designed to support private chats with dynamic chat rooms and user status tracking. It leverages Spring Boot for robust back-end services, MongoDB for scalable data storage, and WebSocket for instant two-way communication. Docker is used to streamline MongoDB setup and management.
 # ✨ Features
 
-    Dynamic Chat Rooms: Automatically create unique chat rooms for private messaging.
+   Dynamic Chat Rooms: Automatically create unique chat rooms for private messaging.
     Real-Time Messaging: Instant communication powered by WebSocket and STOMP messaging.
     User Status Tracking: Online/offline user status with automatic updates.
     Message Persistence: Scalable NoSQL storage using MongoDB (Dockerized).
@@ -89,8 +89,6 @@ Access MongoDB: Open a terminal and connect to the MongoDB shell:
 Step 4: Run the Application
 
 Start the Spring Boot application using:
-
-``mvn spring-boot:run``
 
 Upon successful startup, the Frontend will be available on http://localhost:8080.
 
